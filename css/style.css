@@ -3,9 +3,9 @@
 # General
 --------------------------------------------------------------*/
 :root {
-  --primary: linear-gradient(to left, #BE7D1D 10%, #F9EA7E 44%, #BE7D1D 88%);
+  --primary: linear-gradient(77deg, rgba(190,125,29,1) 10%, rgba(241,239,34,1) 44%, rgba(190,125,29,1) 88%);
+  
 }
-
 
 
 body {
@@ -791,6 +791,15 @@ transform: scale(1.1) ;
   padding-top: 30px;
 }
 
+#get-started .Diamond {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#get-started .Diamond:hover {
+  transform: scale(1.2);
+}
+
 
 /* Testimonials Section
 --------------------------------*/
@@ -998,6 +1007,82 @@ transform: scale(1.1) ;
 #contact .form button[type="submit"]:hover {
   background: #13a456;
 }
+
+
+/* FAQ */
+
+details p {
+	border-left: 2px solid #BE7D1D;
+	border-right: 2px solid #BE7D1D;
+	border-bottom: 2px solid #BE7D1D;
+	padding: 1.5em;
+  color: #fff;
+}
+
+details p > * + * {
+	margin-top: 1.5em;
+}
+
+details + details {
+	margin-top: .5rem;
+}
+
+summary {
+	list-style: none;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+summary {
+	border: 2px solid #BE7D1D;
+	padding: .75em 1em;
+	cursor: pointer;
+	position: relative;
+	padding-left: calc(1.75rem + .75rem + .75rem);
+  color: #000000;
+  background: rgb(190,125,29);
+  background: linear-gradient(77deg, rgba(190,125,29,1) 10%, rgba(241,239,34,1) 44%, rgba(190,125,29,1) 88%);
+}
+
+summary:before {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: .75rem;
+	content: "↓";
+	width: 1.75rem;
+	height: 1.75rem;
+  
+	color: #000000;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+details[open] summary {
+	background-color: #fff;
+}
+
+details[open] summary:before {
+	content: "↑";
+}
+
+summary:hover {
+	background-color: #eee;
+}
+
+
+code {
+	font-family: monospace;
+	font-weight: 600;
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Footer
