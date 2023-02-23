@@ -1268,3 +1268,19 @@ code {
   font-size: 13px;
   color: #ddd;
 }
+
+
+/* responsive */
+
+@media (min-width: 768px) {
+  .video-img {
+      width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+    .video-img {
+        width: 100%;
+    }
+  }  
+  
