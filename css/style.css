@@ -1278,7 +1278,7 @@ code {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 200px) {
     .video-img {
         width: 100%;
     }
