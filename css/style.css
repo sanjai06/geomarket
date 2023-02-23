@@ -1283,4 +1283,19 @@ code {
         width: 100%;
     }
   }  
+
+.services {
+  margin-top: 10%;
+  width: 100%;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.services h1 {
+  text-align: center;
+  align-items: center;
+  color: #BE7D1D;
+  font-weight: bold;
+}
   
