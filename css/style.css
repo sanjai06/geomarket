@@ -1282,6 +1282,14 @@ code {
     .video-img {
         width: 100%;
     }
+    .Diamond{
+      display: flex;
+      flex-direction: column; 
+      padding: 10px;
+      margin: auto;
+    }
+   
+
   }  
 
 .services {
