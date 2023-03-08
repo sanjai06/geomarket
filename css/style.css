@@ -1280,7 +1280,13 @@ code {
   font-size: 13px;
   color: #ddd;
 }
-
+.footer-content{
+  font-weight: bold;
+  font-size: 12px;
+}
+.footer-content a {
+  color: #BE7D1D;
+}
 
 /* responsive */
 
